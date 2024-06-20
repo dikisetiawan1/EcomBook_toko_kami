@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+.navbar.navbar-brand.nav-link{
+  color: #ffffff;
+}
+.navbar-nav{
+margin-left: 400px;
+}
+.navbar{
+  background-color: #005C78;
+}
+.navbar-brand{
+  margin-left: 50px;
+}
+
+.cart-icons{
+  margin-left: 450px;
+  margin-top:10px;
+ }
+ #content span{
+  font-weight: bold; 
+  color: red;
+   font-size: 18px; 
+   margin-top: 20px;
+   margin-left: 20px;
+  
+ }
+ #content .card-text{
+  margin-bottom: -30px;
+ }
+ #content{
+  margin-top: 100px;
+ }
+
+ footer{
+  background-color: #005C78;
+  padding: 10px;
+  color: #ffffff;
+  margin-top: 50px;
+ }
