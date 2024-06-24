@@ -8,7 +8,7 @@
   color: #ffffff;
 }
 .navbar-nav{
-margin-left: 400px;
+margin-left: 500px;
 }
 .navbar{
   background-color: #005C78;
@@ -18,15 +18,16 @@ margin-left: 400px;
 }
 
 .cart-icons{
-  margin-left: 450px;
+  margin-left: 550px;
   margin-top:10px;
  }
  #content span{
   font-weight: bold; 
   color: red;
    font-size: 18px; 
-   margin-top: 20px;
+   margin-top: 50px;
    margin-left: 20px;
+   font-style:italic ;
   
  }
  #content .card-text{
@@ -42,3 +43,45 @@ margin-left: 400px;
   color: #ffffff;
   margin-top: 50px;
  }
+ .search-bg{
+  background-color: #005C78;
+ }
+ .input-group{
+  margin-left: 100%;
+  margin-bottom: 20px;
+ }
+ .card{
+
+
+ &.card-featured{
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+    .img-wrapper{
+      z-index: 1;
+      margin: 0;
+      top: 0 ;
+      right: 0;
+      bottom: 0;
+      transform: scale(1.1);
+      transition: .25s ;
+      transform: ease-in-out;
+      
+    }
+ }
+ .img-cover{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.img-wrapper{
+  height: 100%;
+}
+ 
+&:hover{
+  
+  .img-wrapper{
+    transform: scale(1);
+  }
+}
+}
