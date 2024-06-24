@@ -1,8 +1,34 @@
 {
-    "booksDatas":[
+    "booksJson":[
         {
-            "name":"Atomic Habbit",
-            "price":"75000"
+            "name":"The Birth of Tragedy",
+            "price":"75000",
+            "penulis":"Nietzsche",
+            "penerbit":"IRCiSoD",
+            "isbn":"978-623-8108-65-7",
+            "halaman":"252",
+            "img":"./assets/img/The-Birth-of-Tragedy.jpeg",
+            "description":"Friedrich Nietzsche (1844–1900) dalam buku ini membeberkan asal-usul tragedi Yunani.."
+        },
+        {
+            "name":"Nietzsche dan Islam",
+            "price":"75000",
+            "penulis":"Roy Jackson",
+            "penerbit":"IRCiSoD",
+            "isbn":"-",
+            "halaman":"412",
+            "img":"./assets/img/Nietzsche-Islam.jpeg",
+            "description":"Friedrich Nietzsche adalah filsuf masyhur yang kerap diidentikkan dengan ateisme.. "
+        },
+        {
+            "name":"Genealogi Moral",
+            "price":"75000",
+            "penulis":"Basabasi",
+            "penerbit":"-",
+            "isbn":"-",
+            "halaman":"220",
+            "img":"./assets/img/geneologi-moral.jpeg",
+            "description":"Pemikiranku tentang genealogi moral mempunyai bentuk singkat dan.. "
         }
     ]
 }
