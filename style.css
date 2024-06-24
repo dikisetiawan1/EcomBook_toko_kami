@@ -1,87 +1,86 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
   font-family: "Poppins", sans-serif;
 }
-.navbar.navbar-brand.nav-link{
+
+.navbar.navbar-brand.nav-link {
   color: #ffffff;
 }
-.navbar-nav{
-margin-left: 500px;
-}
-.navbar{
+
+
+
+.navbar {
   background-color: #005C78;
 }
-.navbar-brand{
+
+.navbar-brand {
   margin-left: 50px;
 }
 
-.cart-icons{
-  margin-left: 550px;
-  margin-top:10px;
- }
- #content span{
-  font-weight: bold; 
-  color: red;
-   font-size: 18px; 
-   margin-top: 50px;
-   margin-left: 20px;
-   font-style:italic ;
-  
- }
- #content .card-text{
-  margin-bottom: -30px;
- }
- #content{
-  margin-top: 100px;
- }
 
- footer{
+
+#content span {
+  font-weight: bold;
+  color: red;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-style: italic;
+
+}
+
+#content .card-text {
+  margin-bottom: -30px;
+}
+
+#content {
+  margin-top: 100px;
+}
+
+footer {
   background-color: #005C78;
   padding: 10px;
   color: #ffffff;
   margin-top: 50px;
- }
- .search-bg{
-  background-color: #005C78;
- }
- .input-group{
-  margin-left: 100%;
-  margin-bottom: 20px;
- }
- .card{
+}
 
 
- &.card-featured{
+.card {
+
+
+  &.card-featured {
     overflow: hidden;
     cursor: pointer;
     height: 100%;
-    .img-wrapper{
+
+    .img-wrapper {
       z-index: 1;
       margin: 0;
-      top: 0 ;
+      top: 0;
       right: 0;
       bottom: 0;
       transform: scale(1.1);
-      transition: .25s ;
+      transition: .25s;
       transform: ease-in-out;
-      
+
     }
- }
- .img-cover{
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-.img-wrapper{
-  height: 100%;
-}
- 
-&:hover{
-  
-  .img-wrapper{
-    transform: scale(1);
   }
-}
+
+  .img-cover {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .img-wrapper {
+    height: 100%;
+  }
+
+  &:hover {
+
+    .img-wrapper {
+      transform: scale(1);
+    }
+  }
 }
