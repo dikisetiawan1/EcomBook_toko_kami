@@ -1,6 +1,13 @@
 const mainContainer = document.querySelector("#cards");
 const cart =document.querySelector("#cart");
 
+
+// membuat fungsi search buku
+function searchBook(val){
+  return val;
+
+}
+
 // membuat modal cart
 document.addEventListener("click", cartShow);
 function cartShow() {

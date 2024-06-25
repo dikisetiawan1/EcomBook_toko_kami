@@ -8,7 +8,8 @@
             "isbn":"978-623-8108-65-7",
             "halaman":"252",
             "img":"./assets/img/The-Birth-of-Tragedy.jpeg",
-            "description":"Friedrich Nietzsche (1844–1900) dalam buku ini membeberkan asal-usul tragedi Yunani.."
+            "description":"Friedrich Nietzsche (1844–1900) dalam buku ini membeberkan asal-usul tragedi Yunani..",
+            "kategori" :"non-fiksi"
         },
         {
             "name":"Nietzsche dan Islam",
@@ -18,7 +19,8 @@
             "isbn":"-",
             "halaman":"412",
             "img":"./assets/img/Nietzsche-Islam.jpeg",
-            "description":"Friedrich Nietzsche adalah filsuf masyhur yang kerap diidentikkan dengan ateisme.. "
+            "description":"Friedrich Nietzsche adalah filsuf masyhur yang kerap diidentikkan dengan ateisme.. ",
+            "kategori" :"non-fiksi"
         },
         {
             "name":"Genealogi Moral",
@@ -28,7 +30,8 @@
             "isbn":"-",
             "halaman":"220",
             "img":"./assets/img/geneologi-moral.jpeg",
-            "description":"Pemikiranku tentang genealogi moral mempunyai bentuk singkat dan.. "
+            "description":"Pemikiranku tentang genealogi moral mempunyai bentuk singkat dan.. ",
+            "kategori" :"non-fiksi"
         }
     ]
 }
