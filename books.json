@@ -1,7 +1,7 @@
 {
     "booksJson":[
         {
-            "name":"The Birth of Tragedy",
+            "title":"The Birth of Tragedy",
             "price":"75000",
             "penulis":"Nietzsche",
             "penerbit":"IRCiSoD",
@@ -12,7 +12,7 @@
             "kategori" :"non-fiksi"
         },
         {
-            "name":"Nietzsche dan Islam",
+            "title":"Nietzsche dan Islam",
             "price":"75000",
             "penulis":"Roy Jackson",
             "penerbit":"IRCiSoD",
@@ -23,7 +23,7 @@
             "kategori" :"non-fiksi"
         },
         {
-            "name":"Genealogi Moral",
+            "title":"Genealogi Moral",
             "price":"75000",
             "penulis":"Basabasi",
             "penerbit":"-",
@@ -31,6 +31,39 @@
             "halaman":"220",
             "img":"./assets/img/geneologi-moral.jpeg",
             "description":"Pemikiranku tentang genealogi moral mempunyai bentuk singkat dan.. ",
+            "kategori" :"non-fiksi"
+        },
+        {
+            "title":"Janji Yang Teringkar",
+            "price":"76000",
+            "penulis":"Ken Budha Kusumandaru",
+            "penerbit":"Instrans Publishing",
+            "isbn":"-",
+            "halaman":"148",
+            "img":"./assets/img/janji-yang-teringkar.jpg",
+            "description":"Masyarakat sipil dan organisasi non-pemerintah (NGO) adalah.. ",
+            "kategori" :"non-fiksi"
+        },
+        {
+            "title":"Konsep Judicial Review",
+            "price":"80000",
+            "penulis":"Ali Marwan HSB",
+            "penerbit":"-",
+            "isbn":"978-602-6344-19-9",
+            "halaman":"200",
+            "img":"./assets/img/konsep-judicial-review.jpg",
+            "description":"Sebuah produk peraturan perundang-undangan seharusnya...",
+            "kategori" :"non-fiksi"
+        },
+        {
+            "title":"Etnobotani Mangrove",
+            "price":"62000",
+            "penulis":"Miri Pariyas Tutik Fitriya",
+            "penerbit":"-",
+            "isbn":"-",
+            "halaman":"114",
+            "img":"./assets/img/etnobotani-mangrove.jpg",
+            "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
             "kategori" :"non-fiksi"
         }
     ]
