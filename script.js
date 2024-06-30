@@ -87,7 +87,6 @@ const product = [
   ]
 
 
-
 // function dataApi(getApi){
   const categories =  [...new Set(product.map((item)=>{
     return item
@@ -112,16 +111,16 @@ searchInput.addEventListener('keyup',(e) =>{
   function displayItem(items){
   mainContainer.innerHTML = items.map((item)=>{
     return `
-    <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000"
+    <div class="col-lg-4 mt-5" data-aos="zoom-in" data-aos-duration="1000"
        data-aos-delay="300"> 
       <div class="card shadow card-featured">
         <figure class="img-wrapper ">
           <img src=${item.img} alt="" class="img-cover ">
         </figure> 
        <div class="card-body">
-        <h5 class="card-title">
+        <div class="card-title">
             ${item.title}
-        </h5>
+        </div>
         <div class="card-text">
           ${item.description}
         </div>
