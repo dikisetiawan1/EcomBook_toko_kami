@@ -4,16 +4,17 @@ const cart = document.querySelector("#cart");
 const searchInput = document.getElementById("searchInput");
 
 
+
 // membuat fungsi consume API
-// function getApi(){
-//   fetch("books.json").then(response =>{
-//     return response.json();
-//   }).then(dataJson => {
-//     return dataJson.booksJson;
-//   }).catch(error =>{
-//     console.log(error);
-//   })
-// }
+fetch("books.json").then(response =>{
+    return response.json();
+  }).then(dataJson => {
+    productItem = dataJson.booksJson;
+  })
+  .catch(error =>{
+    console.log(error);
+  })
+
 
 
 const product = [
@@ -85,13 +86,31 @@ const product = [
       },
   ]
 
+
+
+// function dataApi(getApi){
   const categories =  [...new Set(product.map((item)=>{
     return item
   }))]
+
+// membuat fitur searching
+searchInput.addEventListener('keyup',(e) =>{
+  const searchData = e.target.value.toLowerCase();
+  const filterData = categories.filter((item)=>{
+    return(
+      item.title.toLowerCase().includes(searchData)
+    )
+  })
+      if(filterData == 0){
+        swal("Oops!", "Books not found, try again others keyword!", "error");
+      }else{
+        displayItem(filterData)
+      }
+})
   
   // membuat display card
-  function displayData(data){
-  const itemData = data.booksJson.map((item)=>{
+  function displayItem(items){
+  mainContainer.innerHTML = items.map((item)=>{
     return `
     <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000"
        data-aos-delay="300"> 
@@ -125,8 +144,9 @@ const product = [
     </div>
     `
 }).join(" ");
-mainContainer.innerHTML=itemData;
-}
+};
+
+displayItem(categories);
 
 // membuat modal cart
 document.addEventListener("click", cartShow);
