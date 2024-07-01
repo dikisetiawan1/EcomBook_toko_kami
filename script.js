@@ -1,11 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
 const mainContainer = document.getElementById("cards");
-const cart = document.querySelector("#cart");
+const cart = document.getElementById("cart");
 const searchInput = document.getElementById("searchInput");
 
-
-
-// membuat fungsi consume API
 fetch("books.json").then(response =>{
     return response.json();
   }).then(dataJson => {
@@ -18,12 +15,10 @@ fetch("books.json").then(response =>{
 
 
 const loadData = (products) => {
-// function dataApi(getApi){
   const categories =  [...new Set(products.map((item)=>{
     return item
   }))]
 
-// membuat fitur searching
 searchInput.addEventListener('keyup',(e) =>{
   const searchData = e.target.value.toLowerCase();
   const filterData = categories.filter((item)=>{
@@ -39,9 +34,7 @@ searchInput.addEventListener('keyup',(e) =>{
 })
 displayItem(categories);
 }
-console.log(loadData);
   
-  // membuat display card
   function displayItem(items){
   mainContainer.innerHTML = items.map((item)=>{
     return `
@@ -79,9 +72,6 @@ console.log(loadData);
 }).join(" ");
 };
 
-
-
-// membuat modal cart
 document.addEventListener("click", cartShow);
 function cartShow() {
   return `
@@ -96,7 +86,7 @@ function cartShow() {
 }
 cart.innerHTML = cartShow();
 
-// membuat fungsi format rupiah
+
 function rupiah(value) {
   let rupiahFormat = new Intl.NumberFormat('id-ID', {
   style: 'currency',
