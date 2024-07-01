@@ -9,7 +9,7 @@
             "halaman":"252",
             "img":"./assets/img/The-Birth-of-Tragedy.jpeg",
             "description":"Friedrich Nietzsche (1844–1900) dalam buku ini membeberkan asal-usul tragedi Yunani..",
-            "kategori" :"non-fiksi"
+            "category" :"fiksi"
         },
         {
             "title":"Nietzsche dan Islam",
@@ -20,7 +20,7 @@
             "halaman":"412",
             "img":"./assets/img/Nietzsche-Islam.jpeg",
             "description":"Friedrich Nietzsche adalah filsuf masyhur yang kerap diidentikkan dengan ateisme.. ",
-            "kategori" :"non-fiksi"
+            "category" :"fiksi"
         },
         {
             "title":"Genealogi Moral",
@@ -31,7 +31,7 @@
             "halaman":"220",
             "img":"./assets/img/geneologi-moral.jpeg",
             "description":"Pemikiranku tentang genealogi moral mempunyai bentuk singkat dan.. ",
-            "kategori" :"non-fiksi"
+            "category" :"fiksi"
         },
         {
             "title":"Janji Yang Teringkar",
@@ -42,7 +42,7 @@
             "halaman":"148",
             "img":"./assets/img/janji-yang-teringkar.jpg",
             "description":"Masyarakat sipil dan organisasi non-pemerintah (NGO) adalah.. ",
-            "kategori" :"non-fiksi"
+            "category" :"non-fiksi"
         },
         {
             "title":"Konsep Judicial Review",
@@ -53,7 +53,7 @@
             "halaman":"200",
             "img":"./assets/img/konsep-judicial-review.jpg",
             "description":"Sebuah produk peraturan perundang-undangan seharusnya...",
-            "kategori" :"non-fiksi"
+            "category" :"non-fiksi"
         },
         {
             "title":"Etnobotani Mangrove",
@@ -64,7 +64,7 @@
             "halaman":"114",
             "img":"./assets/img/etnobotani-mangrove.jpg",
             "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
-            "kategori" :"non-fiksi"
+            "category" :"non-fiksi"
         }
     ]
 }

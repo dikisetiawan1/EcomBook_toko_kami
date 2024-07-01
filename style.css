@@ -53,19 +53,17 @@ p {
   font-weight: 400;
 }
 
-#content .card-title {
+#main-content .card-title {
   font-size: 20px;
   font-weight: 600;
   color: #005C78;
 }
 
-#content {
+#main-content {
   margin-top: 100px;
 }
 
 .card {
-
-
   &.card-featured {
     overflow: hidden;
     cursor: pointer;

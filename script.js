@@ -2,6 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
 const mainContainer = document.getElementById("cards");
 const cart = document.getElementById("cart");
 const searchInput = document.getElementById("searchInput");
+const category1 = document.getElementById("category1");
+const category2 = document.getElementById("category2");
+const allCategory = document.getElementById("allCategory");
+
 
 fetch("books.json").then(response =>{
     return response.json();
@@ -18,6 +22,48 @@ const loadData = (products) => {
   const categories =  [...new Set(products.map((item)=>{
     return item
   }))]
+
+//all category
+allCategory.addEventListener('input', (e)=>{
+  const searchCategory =e.target.value;
+    if(searchCategory == "all"){
+      displayItem(categories);
+    }
+
+})
+
+// category1
+  category1.addEventListener('input', (e)=>{
+    const searchCategory =e.target.value;
+    const dataSelect = categories.filter((data =>{
+    if(data.category == searchCategory){
+      const filterCategory= data.category;
+      return filterCategory;
+    }
+    
+  }))
+  displayItem(dataSelect);
+  
+})
+displayItem(categories);
+
+// category2
+category2.addEventListener('input', (e)=>{
+  const searchCategory =e.target.value;
+  const dataSelect = categories.filter((data =>{
+  if(data.category == searchCategory){
+    const filterCategory= data.category;
+    return filterCategory;
+
+  }
+  
+}))
+// console.log(dataSelect)
+displayItem(dataSelect);
+
+})
+displayItem(categories);
+  
 
 searchInput.addEventListener('keyup',(e) =>{
   const searchData = e.target.value.toLowerCase();
@@ -53,12 +99,13 @@ displayItem(categories);
         </div>
       </div>
       <span >${rupiah(item.price)},-</span>
+      <span hidden>${item.category}</span>
        <hr/>
        <div class="actions">
         <div class="container mb-4">
         <div class="row">
           <div class="col-12">
-            <a href="#" class="btn btn-warning" type="button">Book detail</a>
+            <a href="#" class="btn btn-warning mr-2" type="button">Book detail</a>
             <a href="#" class="btn btn-outline-warning" type="button" data-toggle="tooltip" data-placement="right" title="Add to cart">
               <img  src="./assets/img/icons/cart-shopping-solid-black.svg" style="width: 20px;" alt="icons">
               </a>
