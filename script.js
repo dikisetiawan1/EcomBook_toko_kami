@@ -10,85 +10,16 @@ fetch("books.json").then(response =>{
     return response.json();
   }).then(dataJson => {
     productItem = dataJson.booksJson;
+    loadData(productItem);
   })
   .catch(error =>{
     console.log(error);
   })
 
 
-
-const product = [
-      {
-          "title":"The Birth of Tragedy",
-          "price":"75000",
-          "penulis":"Nietzsche",
-          "penerbit":"IRCiSoD",
-          "isbn":"978-623-8108-65-7",
-          "halaman":"252",
-          "img":"./assets/img/The-Birth-of-Tragedy.jpeg",
-          "description":"Friedrich Nietzsche (1844–1900) dalam buku ini membeberkan asal-usul tragedi Yunani..",
-          "kategori" :"non-fiksi"
-      },
-      {
-          "title":"Nietzsche dan Islam",
-          "price":"75000",
-          "penulis":"Roy Jackson",
-          "penerbit":"IRCiSoD",
-          "isbn":"-",
-          "halaman":"412",
-          "img":"./assets/img/Nietzsche-Islam.jpeg",
-          "description":"Friedrich Nietzsche adalah filsuf masyhur yang kerap diidentikkan dengan ateisme.. ",
-          "kategori" :"non-fiksi"
-      },
-      {
-          "title":"Genealogi Moral",
-          "price":"75000",
-          "penulis":"Basabasi",
-          "penerbit":"-",
-          "isbn":"-",
-          "halaman":"220",
-          "img":"./assets/img/geneologi-moral.jpeg",
-          "description":"Pemikiranku tentang genealogi moral mempunyai bentuk singkat dan.. ",
-          "kategori" :"non-fiksi"
-      },
-      {
-          "title":"Janji Yang Teringkar",
-          "price":"76000",
-          "penulis":"Ken Budha Kusumandaru",
-          "penerbit":"Instrans Publishing",
-          "isbn":"-",
-          "halaman":"148",
-          "img":"./assets/img/janji-yang-teringkar.jpg",
-          "description":"Masyarakat sipil dan organisasi non-pemerintah (NGO) adalah.. ",
-          "kategori" :"non-fiksi"
-      },
-      {
-          "title":"Konsep Judicial Review",
-          "price":"80000",
-          "penulis":"Ali Marwan HSB",
-          "penerbit":"-",
-          "isbn":"978-602-6344-19-9",
-          "halaman":"200",
-          "img":"./assets/img/konsep-judicial-review.jpg",
-          "description":"Sebuah produk peraturan perundang-undangan seharusnya...",
-          "kategori" :"non-fiksi"
-      },
-      {
-          "title":"Etnobotani Mangrove",
-          "price":"62000",
-          "penulis":"Miri Pariyas Tutik Fitriya",
-          "penerbit":"-",
-          "isbn":"-",
-          "halaman":"114",
-          "img":"./assets/img/etnobotani-mangrove.jpg",
-          "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
-          "kategori" :"non-fiksi"
-      },
-  ]
-
-
+const loadData = (products) => {
 // function dataApi(getApi){
-  const categories =  [...new Set(product.map((item)=>{
+  const categories =  [...new Set(products.map((item)=>{
     return item
   }))]
 
@@ -106,6 +37,9 @@ searchInput.addEventListener('keyup',(e) =>{
         displayItem(filterData)
       }
 })
+displayItem(categories);
+}
+console.log(loadData);
   
   // membuat display card
   function displayItem(items){
@@ -113,7 +47,7 @@ searchInput.addEventListener('keyup',(e) =>{
     return `
     <div class="col-lg-4 mt-5" data-aos="zoom-in" data-aos-duration="1000"
        data-aos-delay="300"> 
-      <div class="card shadow card-featured">
+      <div class="card shadow card-featured" >
         <figure class="img-wrapper ">
           <img src=${item.img} alt="" class="img-cover ">
         </figure> 
@@ -145,7 +79,7 @@ searchInput.addEventListener('keyup',(e) =>{
 }).join(" ");
 };
 
-displayItem(categories);
+
 
 // membuat modal cart
 document.addEventListener("click", cartShow);
