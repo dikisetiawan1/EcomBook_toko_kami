@@ -1,6 +1,7 @@
 {
     "booksJson":[
         {
+            "id" :"1",
             "title":"The Birth of Tragedy",
             "price":"75000",
             "penulis":"Nietzsche",
@@ -9,9 +10,11 @@
             "halaman":"252",
             "img":"./assets/img/The-Birth-of-Tragedy.jpeg",
             "description":"Friedrich Nietzsche (1844–1900) dalam buku ini membeberkan asal-usul tragedi Yunani..",
-            "category" :"fiksi"
+            "category" :"fiksi",
+            "unik" : "satu"
         },
         {
+            "id" :"2",
             "title":"Nietzsche dan Islam",
             "price":"75000",
             "penulis":"Roy Jackson",
@@ -23,6 +26,7 @@
             "category" :"fiksi"
         },
         {
+            "id" :"3",
             "title":"Genealogi Moral",
             "price":"75000",
             "penulis":"Basabasi",
@@ -34,6 +38,7 @@
             "category" :"fiksi"
         },
         {
+            "id" :"4",
             "title":"Janji Yang Teringkar",
             "price":"76000",
             "penulis":"Ken Budha Kusumandaru",
@@ -45,6 +50,7 @@
             "category" :"non-fiksi"
         },
         {
+            "id" :"5",
             "title":"Konsep Judicial Review",
             "price":"80000",
             "penulis":"Ali Marwan HSB",
@@ -56,6 +62,7 @@
             "category" :"non-fiksi"
         },
         {
+            "id" :"6",
             "title":"Etnobotani Mangrove",
             "price":"62000",
             "penulis":"Miri Pariyas Tutik Fitriya",
