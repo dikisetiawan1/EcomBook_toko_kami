@@ -1,12 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 const mainContainer = document.getElementById("cards");
-const cart = document.getElementById("cart");
 const searchInput = document.getElementById("searchInput");
 const category1 = document.getElementById("category1");
 const category2 = document.getElementById("category2");
 const allCategory = document.getElementById("allCategory");
-
-
 
 
 
@@ -190,19 +187,11 @@ displayItem(categories);
 };
 
 
-document.addEventListener("click", cartShow);
-function cartShow() {
-  return `
-  <div class="dropdown">
-  <button class="btn btn-info " type="button" data-toggle="dropdown" aria-expanded="false">
-   <img  src="./assets/img/icons/cart-shopping-solid.svg" style="width: 20px;" alt="icons" >
-  </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Action</a>
-  </div>
-</div>`
+const shoppingCartShow = document.querySelector(".shoppingCartShow");
+document.querySelector("#cartButton").onclick = (e) => {
+  shoppingCartShow.classList.toggle('active');
+  e.preventDefault();
 }
-cart.innerHTML = cartShow();
 
 function rupiah(value) {
   let rupiahFormat = new Intl.NumberFormat('id-ID', {
