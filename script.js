@@ -192,6 +192,7 @@ document.querySelector("#cartButton").onclick = (e) => {
 }
 
 
+
 function rupiah(value) {
   let rupiahFormat = new Intl.NumberFormat('id-ID', {
   style: 'currency',

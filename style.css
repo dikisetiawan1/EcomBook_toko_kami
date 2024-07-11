@@ -21,9 +21,9 @@ hr {
 .navbar.navbar-brand.nav-link {
   color: #ffffff;
 }
-
+/* #005C78 */
 .navbar {
-  background-color: #005C78;
+  background-color: black;
 
 }
 
@@ -37,7 +37,7 @@ hr {
   text-align: center;
   margin-top: -50px;
   margin-bottom: 50px;
-  color: #005C78;
+  color: black;
 
 
 }
@@ -47,7 +47,7 @@ p {
   font-weight: bold;
   color: #FFFFFF;
   display: inline;
-  background-color: #005C78;
+  background-color: black;
   padding: 5px 15px;
 }
 
@@ -69,7 +69,7 @@ p {
 #main-content .card-title {
   font-size: 20px;
   font-weight: 600;
-  color: #005C78;
+  color: black;
 }
 
 #main-content {
@@ -127,7 +127,7 @@ p {
   color: #ffffff;
   width: 425px;
   height: 500px;
-  background-color: #005C78;
+  background-color: black;
   z-index: 1;
   right: -500px;
   transition: 0.3s;
@@ -142,7 +142,7 @@ p {
 
 
 footer {
-  background-color: #005C78;
+  background-color: black;
   padding: 10px;
   color: #ffffff;
   margin-top: 50px;
