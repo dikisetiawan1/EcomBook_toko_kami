@@ -6,12 +6,25 @@
 
 }
 
+body {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+hr {
+  color: #b3b6b8;
+}
+
 .navbar.navbar-brand.nav-link {
   color: #ffffff;
 }
 
 .navbar {
   background-color: #005C78;
+
 }
 
 .navbar-brand {
@@ -98,9 +111,34 @@ p {
   }
 }
 
-#cart {
+#cartButton {
   margin-right: 130px;
+
 }
+
+#main-content {
+  position: relative;
+}
+
+.shoppingCartShow {
+  position: absolute;
+  margin-top: -100px;
+  padding: 20px;
+  color: #ffffff;
+  width: 425px;
+  height: 500px;
+  background-color: #005C78;
+  z-index: 1;
+  right: -500px;
+  transition: 0.3s;
+}
+
+.shoppingCartShow.active {
+  right: 0;
+}
+
+
+
 
 
 footer {
