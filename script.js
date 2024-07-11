@@ -7,9 +7,6 @@ const category2 = document.getElementById("category2");
 const allCategory = document.getElementById("allCategory");
 
 
-
-
-
 fetch("books.json").then(response =>{
     return response.json();
   }).then(dataJson => {
@@ -175,7 +172,6 @@ displayItem(categories);
                   </tr>
                 </tbody>
               </table>
-          
             </div>
             <div class="modal-footer">
               <button class="btn btn-outline-warning" type="button" data-toggle="tooltip" data-placement="right" title="Add to cart">
@@ -188,7 +184,6 @@ displayItem(categories);
     `
 }).join(" ");
 };
-
 
 document.addEventListener("click", cartShow);
 function cartShow() {
@@ -203,7 +198,6 @@ function cartShow() {
 </div>`
 }
 cart.innerHTML = cartShow();
-
 function rupiah(value) {
   let rupiahFormat = new Intl.NumberFormat('id-ID', {
   style: 'currency',
