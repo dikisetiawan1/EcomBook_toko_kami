@@ -72,6 +72,102 @@
             "img":"./assets/img/etnobotani-mangrove.jpg",
             "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
             "category" :"non-fiksi"
+        },
+        {
+            "id" :"7",
+            "title":"Apa itu Filsafat?",
+            "price":"0",
+            "penulis":"-",
+            "penerbit":"-",
+            "isbn":"-",
+            "halaman":"114",
+            "img":"./assets/img/apa-itu-filsafat.jpg",
+            "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
+            "category" :"non-fiksi"
+        },
+        {
+            "id" :"8",
+            "title":"Asal Muasal Orang Jawa",
+            "price":"0",
+            "penulis":"-",
+            "penerbit":"-",
+            "isbn":"-",
+            "halaman":"114",
+            "img":"./assets/img/asal-muasal-orang-jawa.jpg",
+            "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
+            "category" :"non-fiksi"
+        },
+        {
+            "id" :"9",
+            "title":"Biografi Filsuf Yunani Yang Paling Berpengaruh",
+            "price":"0",
+            "penulis":"-",
+            "penerbit":"-",
+            "isbn":"-",
+            "halaman":"114",
+            "img":"./assets/img/biografi-filsuf-yunani-yang-paling-berpengaruh.jpg",
+            "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
+            "category" :"non-fiksi"
+        },
+        {
+            "id" :"10",
+            "title":"Kiat Kiat Membiasakan Diri Bersikap Positif Di Era Disrupsi",
+            "price":"0",
+            "penulis":"-",
+            "penerbit":"-",
+            "isbn":"-",
+            "halaman":"114",
+            "img":"./assets/img/kiat-kiat-membiasakan-diri-bersikap-positif-di-era-disrupsi.jpg",
+            "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
+            "category" :"non-fiksi"
+        },
+        {
+            "id" :"11",
+            "title":"Memeluk Luka",
+            "price":"0",
+            "penulis":"-",
+            "penerbit":"-",
+            "isbn":"-",
+            "halaman":"114",
+            "img":"./assets/img/memeluk-luka.jpg",
+            "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
+            "category" :"non-fiksi"
+        },
+        {
+            "id" :"12",
+            "title":"Nrimo Ing Pandum",
+            "price":"0",
+            "penulis":"-",
+            "penerbit":"-",
+            "isbn":"-",
+            "halaman":"114",
+            "img":"./assets/img/nrimo-ing-pandum.jpg",
+            "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
+            "category" :"non-fiksi"
+        },
+        {
+            "id" :"13",
+            "title":"Perang Panatayudha",
+            "price":"0",
+            "penulis":"-",
+            "penerbit":"-",
+            "isbn":"-",
+            "halaman":"114",
+            "img":"./assets/img/perang-panatayudha.jpg",
+            "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
+            "category" :"non-fiksi"
+        },
+        {
+            "id" :"14",
+            "title":"Pitutur Luhur Jawa",
+            "price":"0",
+            "penulis":"-",
+            "penerbit":"-",
+            "isbn":"-",
+            "halaman":"114",
+            "img":"./assets/img/pitutur-luhur-jawa.jpg",
+            "description":"Manusia memiliki hubungan dekat dengan alam, khususnya...",
+            "category" :"non-fiksi"
         }
     ]
 }
